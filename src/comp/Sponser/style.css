@@ -1,0 +1,84 @@
+/* .sponsor-card:nth-child(1) {
+  transform: rotate(-5deg);
+  transition: transform 0.3s ease;
+}
+
+.sponsor-card:nth-child(2) {
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+}
+
+.sponsor-card:nth-child(3) {
+  transform: rotate(15deg);
+  transition: transform 0.3s ease;
+} */
+
+/* .sponsor-card:hover {
+  transform: rotate(0deg);
+} */
+.sponsor-card {
+  border-radius: 10px;
+}
+.sponser {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../assets/stars1.jpg");
+  gap: 50px;
+}
+.sponsors-cont {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  /* padding-bottom: 50px; */
+  /* padding: 0px 50px 50px 50px; */
+  padding:0px 0px 50px 0px;
+}
+.sponsor-card img {
+  width: 200px;
+  height: 120px;
+  padding: 10px;
+}
+
+.sponsor-card .sponsor-image1 {
+  width: 200px !important;
+  height: 120px !important;
+}
+
+@media (max-width: 767px) {
+  .animate-character {
+    font-size: 40px;
+  }
+}
+
+
+
+/* **************Container ************ */
+
+@media (min-width: 576px) {
+  .sponser {
+      /* width: 540px; */
+      padding:0px;
+  }
+}
+@media (min-width: 768px) {
+  .sponser {
+      /* width: 720px; */
+      padding:0px 5px;
+  }
+}
+@media (min-width: 992px) {
+  .sponser {
+      /* width: 960px; */
+      padding:0px 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .sponser {
+      /* width: 1140px; */
+      padding:0px 100px;
+      /* position: relative; */
+  }
+}
+

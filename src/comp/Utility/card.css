@@ -1,0 +1,101 @@
+
+.themes_container{
+    overflow: hidden !important;
+}
+
+.fl
+{
+    background-image: url("../../assets/stars1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .gradie1::after{
+    content: "";
+    width: 1100px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(150, 11, 231);
+    filter: blur(350px);
+    z-index: 0;
+    position: absolute;
+    translate: 0px 300px;
+    overflow: hidden;
+} */
+
+.gradient_box img::before
+{
+    content: "";
+    width: 500px;
+    height: 500px;
+    /* border-radius: 50%; */
+    background-color: rgb(171, 43, 226);
+    filter: blur(500px);
+    z-index: 90;
+    /* position: absolute; */
+    /* translate: -10px 0px;s */
+    /* overflow: hidden; */
+}
+.corner{
+    background:
+    linear-gradient(to right, grey 1.5px, transparent 1.5px) 0 0,
+    linear-gradient(to right, grey 1.5px, transparent 1.5px) 0 100%,
+    linear-gradient(to left, grey 1.5px, transparent 1.5px) 100% 0,
+    linear-gradient(to left, grey 1.5px, transparent 1.5px) 100% 100%,
+    linear-gradient(to bottom, grey 1.5px, transparent 1.5px) 0 0,
+    linear-gradient(to bottom, grey 1.5px, transparent 1.5px) 100% 0,
+    linear-gradient(to top, grey 1.5px, transparent 1.5px) 0 100%,
+    linear-gradient(to top, grey 1.5px, transparent 1.5px) 100% 100%;
+
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 9px;
+  
+}
+.corner.pad {
+    padding: 8px;
+}
+
+.sub1{
+    height: 450px;
+    margin: auto;
+}
+
+.sub_card1{
+    width: 23rem;
+    
+    
+}
+
+
+/* *************** Container *********** */
+
+@media (min-width: 576px) {
+    .themes_container {
+        /* width: 540px; */
+        padding:0px;
+    }
+  }
+  @media (min-width: 768px) {
+    .themes_container {
+        /* width: 720px; */
+        overflow: hidden !important;
+        padding:0px 5px;
+    }
+  }
+  @media (min-width: 992px) {
+    .themes_container {
+        /* width: 960px; */
+        padding:0px 10px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .themes_container {
+        /* width: 1140px; */
+        padding:0px 100px;
+        /* position: relative; */
+    }
+  }
+  

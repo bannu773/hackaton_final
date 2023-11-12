@@ -1,0 +1,36 @@
+/* styles.css */
+.sidebar-container {
+    position: fixed;
+    top: 0;
+    left: -300px; /* Initially off screen */
+    width: 300px;
+    height: 100vh;
+    background-color: #333;
+    transition: left 0.3s ease-in-out; /* Smooth transition animation */
+    z-index: 100;
+  }
+  
+  .sidebar-open {
+    left: 0;
+  }
+  
+  .app-container {
+    position: relative;
+    transition: margin-left 0.3s ease-in-out; /* Smooth transition for content when sidebar opens/closes */
+  }
+  
+  .show-sidebar .app-container {
+    margin-left: 300px;
+  }
+  
+  .menu-toggle-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 200;
+    background-color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
