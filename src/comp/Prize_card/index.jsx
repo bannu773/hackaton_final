@@ -18,7 +18,7 @@ const NFTCardComponent = () => {
     <div className="prize_main">
       <div className="main_ntf pb-10 prize_grad">
         <div className="col-md-12 text-center pb-10" ref={head.ref}>
-          <h3 className="animate-character1">PRIZE POOL</h3>
+          <h3 className="animate-character">PRIZE POOL</h3>
         </div>
         <div className="sub_ntf">
           <div className="nft">

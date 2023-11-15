@@ -47,9 +47,6 @@ function Team({teamRef}) {
           <p className="card_subname text-gray-700">Travel And Accomodation</p>
           <p><LocalPhoneIcon fontSize="7" className="mr-2" />7013294063</p>
         </div>
-        
-        
-        
       </div>
     </div>
   );

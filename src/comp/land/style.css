@@ -202,6 +202,7 @@
 
 .page_2 .image_2 {
   min-width: 600px;
+  height: 75vh;
   width: 950px;
   display: flex;
   justify-content: center;
@@ -370,6 +371,7 @@
 
 @media (max-width: 767px) {
   .page_2 {
+    height: 110vh !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -388,7 +390,7 @@
 
   .page_2 .head_1 {
     width: 100vw;
-    height: 70vh;
+    height: 2000px;
     padding: 50px;
   }
 
@@ -406,6 +408,7 @@
 
   .page_2 .image_2 {
     width: 100vw;
+    height: 2000px;
     min-width: 100vw;
     translate: 0px -130px;
     display: flex;
@@ -529,6 +532,7 @@
   .timer_sec {
       /* width: 540px; */
       padding:0px;
+      height:45vh;
   }
 }
 @media (min-width: 768px) {

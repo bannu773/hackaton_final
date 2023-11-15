@@ -161,7 +161,7 @@ function UpBar({ scrollToSection }) {
 
                 >
                   <Typography textAlign="center" className={classes.menuLink}>
-                    <a href={`${page.toLowerCase()}`}>{page}</a>
+                    <a href={`${page.toLowerCase()}`} className="text-black">{page}</a>
                   </Typography>
                 </MenuItem>
               ))}

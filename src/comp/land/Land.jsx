@@ -171,7 +171,7 @@ const Land = ({
   // });
 
   const stars = useParallax({
-    speed: 10,
+    speed: 1,
   });
 
   const line = useParallax({

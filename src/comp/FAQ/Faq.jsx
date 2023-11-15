@@ -30,7 +30,7 @@ const data = {
     },
     {
       title : "Food & Accommodation provision ?",
-      content : "Selected teams for the grand finale round will have to pay for food and accommodation for a three-day, two-night stay throughout the hackathon. The details and fees for food and accommodation will be communicated upon selection for the grand finale."
+      content : "Selected teams for the grand finale round will have to pay for food and accommodation for a three-days, two-night stay throughout the hackathon. The details and fees for food and accommodation will be communicated upon selection for the grand finale."
     },
     {
       title : "Can a team consist the students from different domains ?",
