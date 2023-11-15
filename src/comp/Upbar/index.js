@@ -115,7 +115,7 @@ function UpBar({ scrollToSection }) {
             }}
             className={classes.navLink}
           >
-            <Highlight1 text={"AVISKHAR"} />
+            <Highlight1 text={"AVISHKAAR"} />
           </Typography>
 
           {/* Mobile Menu */}

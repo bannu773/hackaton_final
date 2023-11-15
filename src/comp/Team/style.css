@@ -16,7 +16,17 @@
 /* .teamcard:hover {
   transform: rotate(0deg);
 } */
+.card_email
+{
+  font-size: 12px;
+}
+.card_name{
+  font-size: 14px !important;
+}
 
+.card_subname{
+  font-size: 12px;
+}
 
 .poshya{
   background-image: url("../../assets/poshya.jpeg");

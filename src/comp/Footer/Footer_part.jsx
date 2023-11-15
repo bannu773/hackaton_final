@@ -6,6 +6,7 @@ import Box from "@mui/material/Box";
 import logo from '../../assets/logo-removebg-preview.png';
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
+import MailIcon from '@mui/icons-material/Mail';
 import "./style.css";
 
 function Footer_part({scrollToSection}) {
@@ -21,7 +22,6 @@ function Footer_part({scrollToSection}) {
     
   ];
   const pages1 = [
-    "Chief_Guests",
     "Sponsors",
     "FAQS",
     "Team",
@@ -74,6 +74,7 @@ function Footer_part({scrollToSection}) {
         </div>
       </div>
       <div className="section">
+        <p><MailIcon  fontSize="7" className="mr-2" />avishkaar2024@adityatekkali.edu.in</p>
         <p>FOLLOW US</p>
         <div className="sec">
           <i style={iconStyle}>
@@ -92,8 +93,8 @@ function Footer_part({scrollToSection}) {
       </div>
     </div>
     <div className="footer_2">
-      <p>© AVISHKAAR 2023 | ALL RIGHTS RESERVED</p>
       <p>Developed and designed by SAC</p>
+      <p>© AVISHKAAR 2024 | ALL RIGHTS RESERVED</p>
     </div>
   </div>
   );

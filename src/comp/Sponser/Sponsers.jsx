@@ -6,6 +6,7 @@ import ccc from "../../assets/logo-small-1-1.png";
 import newleaf from "../../assets/319404445_1324961484944842_7733330898332491332_n.png";
 import tcs from "../../assets/TCSiON_Badge (1).png";
 import { useParallax } from "react-scroll-parallax";
+import icc from "../../assets/iiclogo.png";
 
 function Sponsers({sponsorsRef}) {
   const head = useParallax({
@@ -31,6 +32,9 @@ function Sponsers({sponsorsRef}) {
         </div>
         <div className="sponsor-card bg-white ">
           <img src={img1} alt="Sponsor 3" className="sponsor-image" />
+        </div>
+        <div className="sponsor-card bg-white">
+          <img src={icc} alt="Sponsor 3" className="sponsor-image" />
         </div>
       </div>
     </div>

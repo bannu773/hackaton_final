@@ -159,7 +159,7 @@ const TimeLine = ({ timelineRef }) => {
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work outergrad"
-              date="10-09-2023"
+              date="20-11-2023 to 30-11-2023"
               contentStyle={{
                 background: "rgba(144, 19, 254, 0.15)",
                 boxShadow: "0 8px 32px 0 rgba(31, 38, 135, 0.37)",
@@ -182,13 +182,14 @@ const TimeLine = ({ timelineRef }) => {
               </h4>
               <p>
 
-              Avishkaar 2024 invites early submissions of 1-minute
+                Avishkaar 2024 invites early submissions of 1-minute
                 video pitches and abstracts of innovative solutions for problem statements,
                 promising mentorship and theme alignment for your solutions. <br />
+                <a href="#" className="text-pink-300">Click here</a> for guidelines..
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-              date="30-09-2023"
+              date="30-12-2023 to 15-01-2023"
               className="vertical-timeline-element--work"
               contentStyle={{
                 background: "rgba(144, 19, 254, 0.15)",
@@ -215,7 +216,7 @@ const TimeLine = ({ timelineRef }) => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
-              date="30-11-2023"
+              date="15-01-2023 to 15-02-2023"
               contentStyle={{
                 background: "rgba(144, 19, 254, 0.15)",
                 boxShadow: "0 8px 32px 0 rgba(31, 38, 135, 0.37)",
@@ -238,7 +239,7 @@ const TimeLine = ({ timelineRef }) => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
-              date="20-12-2023"
+              date="15-02-2024 to 29-02-2024"
               contentStyle={{
                 background: "rgba(144, 19, 254, 0.15)",
                 boxShadow: "0 8px 32px 0 rgba(31, 38, 135, 0.37)",
@@ -264,7 +265,7 @@ const TimeLine = ({ timelineRef }) => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
-              date="10-01-2024"
+              date="29-02-2024 to 02-03-2024"
               contentStyle={{
                 background: "rgba(144, 19, 254, 0.15)",
                 boxShadow: "0 8px 32px 0 rgba(31, 38, 135, 0.37)",
@@ -284,14 +285,12 @@ const TimeLine = ({ timelineRef }) => {
               <p>
                 {" "}
 
-                The Grand Finale marks the remarkable culmination of Avishkaar 2024, where finalist teams showcase inventive
-                concepts and solutions to the jury and industry professionals, and careful project assessment leads
-                to rewarding the most exemplary teams with avant-garde ideas.
+                The Grand Finale at Aditya Institute of Technology and Management signifies the impressive conclusion of Avishkaar 2024. During this event, finalist teams present innovative concepts and solutions to a panel of judges and industry experts. Thorough project assessments result in recognizing and rewarding the most outstanding teams with cutting-edge ideas.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
-              date="30-01-2024"
+              date="02-03-2024"
               contentStyle={{
                 background: "rgba(144, 19, 254, 0.15)",
                 boxShadow: "0 8px 32px 0 rgba(31, 38, 135, 0.37)",

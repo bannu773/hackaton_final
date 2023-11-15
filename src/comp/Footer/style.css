@@ -20,6 +20,7 @@
 
 .footer .footer_2{
   display: flex;
+  flex-direction: column;
   align-items: center;
   font-size: 14px;
   justify-content: center;
@@ -31,9 +32,6 @@
    display: flex;
    width: 400px;
    justify-content: space-around;
-}
-.footer .section p {
-  text-transform: uppercase;
 }
 .sect p{
   justify-content: left !important;

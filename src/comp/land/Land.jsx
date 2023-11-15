@@ -23,10 +23,11 @@ import Contact from "../contact/Contact";
 import backgroundImage from "../../assets/stars1.jpg";
 import Team from "../Team/Team";
 import HighlightText from "../Utility/HighlightText";
+import HighlightGrand from "../Utility/HighlightGrand";
+
 import Themes from "../Themes/Themes";
 import Aitam from "../../assets/Aitam_logo.jpeg";
 import gfg from "../../assets/gfg-new-logo.png";
-import Highlight1 from "../HighLight2/HIghlight1";
 import NFTCardComponent from "../Prize_card";
 
 const cards = [
@@ -240,7 +241,7 @@ const Land = ({
                Hackathon 2024
             </h1>
             <div className="con_1">
-              <p>-Igniting Inventions, Inspiring Innovators</p>
+              <p><HighlightGrand text={"Grand Finale"} /> on 29 Feb , 01 Mar 02 Mar 2024</p>
             </div>
 
             <div className="mt-6">
@@ -273,8 +274,8 @@ const Land = ({
           <h1 ref={aboutRef}>
             <span className="bout">ABOUT</span>
           </h1>
-          <p>
-            Join AVISHKAAR 2024, a national-level hackathon hosted by Aditya
+          <p className="text-justify">
+            Join <span className="font-bold">AVISHKAAR 2024</span>, a National-level hackathon hosted by Aditya
             Institute of Technology And Management, powered by GeeksforGeeks.
             Our mission is to address real-time challenges in India's rural and
             urban communities through innovation in digital empowerment,
@@ -287,7 +288,7 @@ const Land = ({
           <Countdown />
         </div>
       </section>
-      <NFTCardComponent />
+      
       <Themes themesRef={themesRef} />
       {/* <div className="gradi"></div> */}
       <div className="col-md-12 text-center  " ref={head.ref}>
@@ -298,6 +299,7 @@ const Land = ({
 
       {/* <Cguests chiefguestsRef={chiefguestsRef} /> */}
       <Sponsers sponsorsRef={sponsorsRef} />
+      <NFTCardComponent />
       <div
         className="faq"
         style={{
@@ -305,6 +307,7 @@ const Land = ({
           fontFamily: "'DM Sans', sans-serif", // Use camelCase for font-family
         }}
       >
+
         <div className="col-md-12 text-center " ref={line.ref}>
           <h3 className="animate-character" ref={faqsRef}>
             {" "}

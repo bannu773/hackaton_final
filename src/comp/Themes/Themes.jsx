@@ -14,6 +14,8 @@ import Theme3 from "./../../assets/themes_new_3.png";
 import Theme1 from "./../../assets/themes_new_5.png";
 import Theme5 from "./../../assets/themes_new_2.png";
 import Theme6 from "./../../assets/themes_new_1.png";
+import Theme7 from "./../../assets/themes_travel.png";
+import Theme8 from "./../../assets/theme_innovation.png"
 
 import "./../Utility/card.css";
 
@@ -36,7 +38,7 @@ const Themes = ({ themesRef }) => {
             Images={Theme1}
             text={"DIGITAL EMPOWERMENT FOR RURAL COMMUNITIES"}
             content={
-              "Avishkaar invites participants to channel their innovation toward transforming the lives of underserved rural populations. This theme is an invitation to craft technology-driven solutions that bridge the digital divide, offering improved access to education, healthcare, agricultural insights, financial services, and digital literacy in rural Communities. "
+              "Aaviskhar extends an invitation to participants to channel innovation toward transforming the lives of the rural population. This theme encourages the creation of technology-driven solutions that improve access to education, healthcare, agriculture, financial services and digital literacy."
             }
             prize={"5K"}
           />
@@ -46,7 +48,7 @@ const Themes = ({ themesRef }) => {
             Images={Theme2}
             text={"URBAN MOBILITY AND TRAFFIC MANAGEMENT"}
             content={
-              "Avishkaar challenges participants to innovate urban living, addressing transportation challenges. This theme inspires solutions for traffic congestion, improved public transit, smart urban mobility, and sustainable travel. Participants contribute to creating accessible, efficient, and environmentally friendly cities, prioritizing quality urban life."
+              "Avishkaar prompts innovation in urban living, emphasizing transportation solutions for traffic congestion, improved public transit, and sustainable travel. Participants strive to create accessible, efficient, and environmentally friendly cities, prioritizing quality urban life."
             }
             prize={"1K"}
           />
@@ -56,7 +58,7 @@ const Themes = ({ themesRef }) => {
             Images={Theme3}
             text={"AGRICULTURE AND FOOD TECHNOLOGY"}
             content={
-              "Avishkaar calls for a revolution in agriculture, urging tech-driven solutions for farming challenges. Participants innovate in crop management, supply chain efficiency, and food distribution, contributing to food security, reduced wastage, increased productivity, and sustainable practices. This is vital for nourishing our nation and safeguarding the environment, fostering resilience and sustainability in food systems"
+              "Aaviskhar urges a tech revolution in agriculture, prompting innovation in crop management, supply chain efficiency, and food distribution. The goal is to boost food security, minimize wastage, enhance productivity, and advocate for sustainable practices."
             }
             prize={"2K"}
           />
@@ -64,9 +66,9 @@ const Themes = ({ themesRef }) => {
         <div>
           <Card2
             Images={Theme4}
-            text={"HERITAGE AND CULTURE"}
+            text={"Medical and Health"}
             content={
-              "Avishkaar summons participants to safeguard, celebrate, and rejuvenate India's rich heritage and diverse traditions. This theme inspires tech-driven solutions for preserving historical sites, promoting cultural education, enhancing exchange, and bridging generational gaps. Participants, by embracing this theme, contribute to preserving our identity, fostering cross-cultural appreciation, and ensuring the legacy of our heritage thrives in the modern world."
+              "Aavishkar calls forth transformative solutions to healthcare challenges. This theme focuses on tech-driven solutions for patient data security and privacy, telemedicine accessibility and equity, chronic disease management, rapid prototyping, and medical education."
             }
             prize={"4K"}
           />
@@ -76,7 +78,7 @@ const Themes = ({ themesRef }) => {
             Images={Theme5}
             text={"WASTE MANAGEMENT AND RECYCLING"}
             content={
-              "Avishkaar empowers participants to envision waste as a resource, fostering sustainable solutions for environmental challenges. This theme inspires tech-driven approaches in waste collection, separation, recycling, and disposal. Engaging in this theme, participants contribute to reducing pollution, conserving resources, promoting circular economies, and fostering a cleaner, healthier environment for present and future generations"
+              "Avishkaar empowers participants to envision waste as a resource and inspires tech-driven approaches in waste collection, separation, recycling, and disposal. Participants in this theme contribute to a cleaner, healthier environment by reducing pollution, conserving resources, and promoting circular economies."
             }
             prize={"3K"}
           />
@@ -86,10 +88,30 @@ const Themes = ({ themesRef }) => {
             Images={Theme6}
             text={"RENEWABLE/SUSTAINABLE ENERGY SOLUTIONS"}
             content={
-              "This theme fosters the development of technology-driven approaches leveraging renewable sources like solar, wind, hydro, and bioenergy to tackle energy challenges. Participation in this theme contributes to reducing carbon emissions, promoting energy efficiency, and creating a sustainable energy ecosystem. Individuals align with our nation's commitment to a more environmentally conscious and energy-independent future."
+              "This theme fosters the development of technology-driven approaches to reduce carbon emissions, promote energy efficiency, and create a sustainable energy ecosystem by leveraging renewable sources like solar, wind, hydro, and bioenergy to tackle energy challenges."
             }
             prize={"6K"}
           />
+
+        </div>
+        <div>
+          <Card1
+            Images ={Theme7}
+            text={"Tourism and Travel"}
+            content={
+              "Aavishkar summons participants to dive into smart destination management, Sustainable Practices, and Immense health focus innovations. This theme mainly focuses on digital nomad solutions in travel and tourism."
+            }
+           />
+        </div>
+        <div>
+          <Card1 
+          Images={Theme8}
+          text={"Student Innovation  "}
+          content={
+            "Aavishkar embraces Technical enthusiasts with creative minds. This theme pays attention to solving real-world problems using advanced technology. It will showcase the student problem-solving skills & technical prowess in diverse domains."
+            }/>
+          
+          
         </div>
       </div>
     </div>

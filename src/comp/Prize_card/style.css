@@ -40,7 +40,7 @@ code {
   animation: textclip 2s linear infinite;
   display: inline-block;
   font-size: 70px;
-  padding-top: 0px;
+  padding-top: 10px;
   font-family: "Comfortaa", cursive;
 }
 
